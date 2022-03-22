@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ильназ\\Vscode\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\Ильназ\\VScode\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\Ильназ\\Vscode\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\Ильназ\\VScode\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ильназ\\Vscode\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\Ильназ\\VScode\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\Ильназ\\Vscode\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\Ильназ\\VScode\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Ilnaz\\.nuget\\packages\\",
-        "outputPath": "D:\\Ильназ\\Vscode\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\Ильназ\\VScode\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilnaz\\AppData\\Roaming\\NuGet\\NuGet.Config",

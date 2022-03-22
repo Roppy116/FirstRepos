@@ -1,17 +1,36 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace ConsoleApp3
 {
+    public class Info : EventArgs
+    {
+        public static char x { get; set; }
+    }
+    public class EventClass 
+    {
+        public event EventHandler<char> OnKeyPressed;
+
+        public void Run(char t)
+        {
+            while (t != 'c' && t != 'C')
+            {
+                t = Console.ReadKey().KeyChar;
+                OnKeyPressed?.Invoke(this, t);
+            } 
+        }
+    }
     class Program
     {
         static void Main(string[] args)
         {
-            int a = 15;
-            int b = 30;
-            System.Console.WriteLine("Result:");
-            System.Console.WriteLine($"a * b = {a*b}");
+            EventClass obj = new EventClass();
+            obj.OnKeyPressed += HandlerMethod;
+            obj.Run(Info.x);
         }
 
+        static void HandlerMethod(object source, char t)
+        {
+            Console.WriteLine("\nВводимый символ: " + t );
+        }
     }
-
 }
